@@ -9,12 +9,12 @@ h1{
     font-size: 64px;
     margin: 0;
     border-bottom: 5px solid #000;
-  }
+}
 
 ol{
     float: left;
     width: 200px;
-   }
+}
 
 li{
     padding: 20px 0 20px 0;
