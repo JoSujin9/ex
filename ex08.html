@@ -16,9 +16,11 @@
     <figure>
         <figcaption>커피</figcaption>
         <picture>
+            <!--반응형 (min-width:1000px)은 1000px일때 보여줘라-->
             <source media="(min-width:1000px)" srcset="./images/coffee4.jpg">  
             <source media="(min-width:800px)" srcset="./images/coffee3.png">
-            <source media="(min-width:600px)" srcset="./images/coffee2.svg">    
+            <source media="(min-width:600px)" srcset="./images/coffee2.svg">  
+            <!--그게 아니면 디폴트 값으로 이 이미지를 줘라-->
             <img src="./images/coffee.gif" alt="커피">
         </picture>
     </figure>
